@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.bg-noise {
+  background-image: url(../../public/noise.png);
+}
+
+.header-bg {
+  background-color: #029F58;
+}
