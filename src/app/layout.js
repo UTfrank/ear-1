@@ -1,4 +1,5 @@
 import "./globals.css";
+import { ToggleNavProvider } from "@/context/toggleNar";
 import { Inter, DM_Sans } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -12,7 +13,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${dMSans.variable}`}>{children}</body>
+      <body className={`${dMSans.variable}`}>
+        <ToggleNavProvider>
+          {children}
+        </ToggleNavProvider>
+      </body>
     </html>
   );
 }
