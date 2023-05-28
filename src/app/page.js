@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import About from "@/components/About";
 import Fans1 from "@/components/Fans1";
 import Fans2 from "@/components/Fans2";
+import Influencer1 from "@/components/Influencer1";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -19,6 +20,7 @@ export default function Home() {
       <About />
       <Fans1 />
       <Fans2 />
+      <Influencer1 />
     </main>
   );
 }
