@@ -16,6 +16,10 @@
   }
 }
 
+/* * {
+  border: 1px solid coral;
+} */
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -30,7 +34,51 @@ body {
   background-image: url(../../public/noise.png);
 }
 
-.header-bg {
+.bg-primary {
   background-color: #029F58;
   /* color: #00070f; */
+}
+
+.text-primary {
+  color: #029F58;
+}
+
+.bg-secondary {
+  background-color: #F0F0E6;
+}
+
+.bg-influencer {
+  background-color: #FFBB62;
+}
+
+.bg-fans {
+  background-color: #FFBB62;
+}
+
+.sq-image {
+  width: 376.19px;
+  height: 438.89px;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+.sq-image-sm {
+  width: 326.19px;
+  height: 408.89px;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 600px) {
+  .sq-image {
+    width: 223.54px;
+    height: 260.79px;
+  }
+
+  .sq-image-sm {
+    width: 202px;
+    height: 240px;
+  }
 }

@@ -11,7 +11,7 @@ const MobileNav = () => {
         <button className="absolute top-6 right-3" onClick={closeModal}>
           <AiOutlineClose size="1rem" />
         </button>
-        <div className="absolute top-11 right-0 w-2/3 bg-black p-6 rounded-l-3xl">
+        <div className="absolute top-11 right-0 w-2/3 md:w-1/3 bg-black p-6 rounded-l-3xl">
         <div className="mb-6">
           <a href="#" className="font-dm-sans font-normal text-xs md:text-lg lg:text-xl not-italic">Home</a>
         </div>

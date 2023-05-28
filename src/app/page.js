@@ -1,7 +1,9 @@
 "use client";
 import { useState } from "react";
 import Header from "@/components/Header";
-import Image from "next/image";
+import About from "@/components/About";
+import Fans1 from "@/components/Fans1";
+import Fans2 from "@/components/Fans2";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -14,6 +16,9 @@ export default function Home() {
       }`}
     >
       <Header />
+      <About />
+      <Fans1 />
+      <Fans2 />
     </main>
   );
 }

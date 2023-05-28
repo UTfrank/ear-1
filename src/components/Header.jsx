@@ -9,7 +9,7 @@ import MobileNav from "./MobileNav"
 
 const Header = () => {
   return (
-    <header className="font-dm-sans header bg-noise header-bg pt-12">
+    <header className="font-dm-sans header bg-noise bg-primary pt-12">
       <Navigation />
       <MobileNav />
       <div className="text-center">
