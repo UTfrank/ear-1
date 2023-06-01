@@ -13,7 +13,7 @@ const Fans2 = () => {
             <HeaderPill text="Fans" fans={true} />
           </div>
           <div className="flex items-center justify-center">
-            <Image src={chat} alt="chat icon" />
+            <Image src={chat} alt="chat icon" className="w-[48px] h-[48px] lg:w-[64px] lg:h-[64px]" />
           </div>
         </div>
         <PrimaryHeading text="Be assured of replies" color="text-white" />
