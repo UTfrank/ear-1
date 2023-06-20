@@ -3,7 +3,7 @@ import logo from "../../public/logo-white.svg";
 import facebook from "../../public/icon-facebook.svg";
 import instagram from "../../public/icon-instagram.svg";
 import twitter from "../../public/icon-twitter.svg";
-import SubscribeEmail from "./subscribeEmail";
+import SubscribeEmail from "./SubscribeEmail";
 import Socials from "./Socials";
 import FooterList from "./FooterList";
 
