@@ -7,6 +7,7 @@ import Fans2 from "@/components/Fans2";
 import Influencer1 from "@/components/Influencer1";
 import Influencer2 from "@/components/Influencer2";
 import Features from "@/components/Features";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -25,6 +26,7 @@ export default function Home() {
       <Influencer1 />
       <Influencer2 />
       <Features />
+      <Footer />
     </main>
   );
 }

@@ -82,3 +82,47 @@ body {
     height: 240px;
   }
 }
+
+.timeline {
+  display: block;
+  padding-left: 32px;
+}
+
+.timeline li {
+  position: relative;
+}
+
+.timeline li:not(:last-child) {
+  margin-bottom: 54px;
+}
+
+
+.timeline li::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -32px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.timeline li:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 21px;
+  left: -22px;
+  width: 1px;
+  height: 106px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.timeline li span {
+  position: absolute;
+  top: 5px;
+  left: -27px;
+  width: 12px;height: 12px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
